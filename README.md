@@ -24,8 +24,8 @@ https://www.mongodb.com
 #### 'python Miniproject3.py' and then follow the instructions.
 
 ### 4. Result
-#### When running the project, the database is empty. <br> Add a new username named 'maroon5' for example. <br> Then tweets(images) are being downloaded.(pic1) ![tweets](https://github.com/LekaiSong/Database/blob/master/result/1.png)
-#### Then convert these images into a video. ![video](https://github.com/LekaiSong/Database/blob/master/result/2.png)
+#### When running the project, the database is empty. <br> Add a new username named 'maroon5' for example. <br> Then tweets(images) are being downloaded. ![tweets](https://github.com/LekaiSong/Database/blob/master/result/3.png)
+#### Then convert these images into a video. ![video](https://github.com/LekaiSong/Database/blob/master/result/4.png)
 #### Analyze the video and give it labels. ![labels](https://github.com/LekaiSong/Database/blob/master/result/5.png)
 #### Also add 'nba' and 'boston' as well.
 #### Now see the full database. ![full](https://github.com/LekaiSong/Database/blob/master/result/9.png)
