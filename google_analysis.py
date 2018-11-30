@@ -45,7 +45,7 @@ def google_analyze(screen_name,image_num):
 
 
     #insert to database table
-    mydb = mysql.connector.connect(host="localhost",user="root",passwd="",db="mini")
+    mydb = mysql.connector.connect(host="localhost",user="root",passwd="",db="mini3_db")
     mycursor = mydb.cursor()
     mycursor.execute("use mini3_db")
     #mycursor.execute("DROP TABLE IF EXISTS MINIDATA")
