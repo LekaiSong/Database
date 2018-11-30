@@ -27,6 +27,6 @@ https://www.mongodb.com
 #### When running the project, the database is empty. <br> Add a new username named 'maroon5' for example. <br> Then tweets(images) are being downloaded. ![tweets](https://github.com/LekaiSong/Database/blob/master/result/3.png)
 #### Then convert these images into a video. ![video](https://github.com/LekaiSong/Database/blob/master/result/4.png)
 #### Analyze the video and give it labels. ![labels](https://github.com/LekaiSong/Database/blob/master/result/5.png)
-#### Also add 'nba' and 'boston' as well.
+#### Also add 'nba', 'boston' and 'newyork' as well.
 #### Now see the full database. ![full](https://github.com/LekaiSong/Database/blob/master/result/9.png)
 #### And we can query a existed username and see details about it. If searching a keyword, username that contains it will be displayed. ![keyword_stage](https://github.com/LekaiSong/Database/blob/master/result/10.png) ![keyword_basketball](https://github.com/LekaiSong/Database/blob/master/result/11.png)
