@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "analyze-video-601",
+  "private_key_id": "e0d485faa148752c74993247c003c38d9276f2e4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCT7f3gBON76Ecz\n7tRm5Kt9bmIr5VOwJzvNROcw5vUue23tAWO67tZMJsEhdKeNFBhGJXVaxfgiJUXV\n+PWY6CAWHaetE/N4RNBY80EU8ca434cO02RMNFGyQxSj2IvckzhrdCinsv4vflPl\nc4RfP5omhluZs3F4W0uaG/wVDhDdwTiUKXRFH0+vL1bwmIqHDsh1g1HoB4NuDPIB\nc2S+83TOszMlrajh2D6fXWs/0q+fUkpU41Q5adOO9CnMQ3g1PpjyBNZZ3MfOeW4P\nByvLHk2ux+oJ7xXP4w0vfbTQ0RJnjGjbEeLhXvIYf4gPhA5fHh+fAzlCVMeoubnL\naKGJjTwPAgMBAAECggEANFLxAqUYBcLiNJdcn8xwcBx0MwyZrmwiNfgSQnTe8oMM\nHdHpAbzrJeJrW7cUcM1TzLQBL4toukMu0YGO9XfdqZTxs0GkU70baOsZ8RuX69p8\nvhy9lErJPuGFUnMM/YdBZJigrLieOhRX/of+oWYw00Gg8tvK3gSE2EzfvF7OTnE5\nGRjsS5EOIODwqOhRcZrH6SA3oewZ8rXZVF95LgAJrIjbNMUbRiqhOje/Uc3drtx2\ny0x1v9cB/uy9Sz6TK5Q8z4dFjXaUlizd3wAwF5Mi1SJCDl9U88qFcQ91rBqMcmGx\nCmXe5jCo+5K7GexShuB5RdoA/2AHy8Jc6zRRks/G8QKBgQDKZXkdUaFygRIMl03v\nJqFPZKbMrWrc8IMvJMT5jkLUpd2i0faA6L79t3MfGNtPBZYJQvG3U3m7s2QP7ja7\nHBwmP7+blYPBb0qUuDtP7GilqDaUdN3fL24MbXni+SNFh+80TWENyCxLCbg4EJwH\nwf3Mg7KD+TT8JiLmaed6HgPWCQKBgQC7G6kc49EoWqnKkNoGfRrtiwBb/apmplt0\nifTZJTab+o5V/PnkRfDJI/sy/SzxsYKtUkUAhL8YSgMbHZACLHpzGLWTEBrZapMt\nzSkCjtzEnUcY/ZQyc3MOhdFXul3wPyZtcA0IEx4kkJkv8LBLlBIQ14m/58OfsRSl\n7jUcV4tHVwKBgQCiNjOckOkRKWr61mUqz84nIGci0bY8/zJUnWaVEDR1073PmfGz\nnVY9aEMG4FgcfECkiZfKs0d0bTE8J1KMIdpZuWvq2Sjw5i5jBUjcJIA2jJu53fRY\nxN2xbihrBfwD5Q+M3ptzfUQqm86eeIllGlA8Ei0H4rpZgIMmIijYUagHaQKBgQCg\nhnCmSoXNW0tEcNW8r2SE27ZpNc4V1y+rYhhgm96oH2QyPaGeyKp1xpri+favPR3h\n2S097qWMDyNvBgPg+YvsZwyQqUZ/tUGkD9nZSfv56v1uYU/doNLbaM9btpaVYXh0\nd6eWf+BienQSfyqhDN4a+PBDZnGc9e3DFgUW1by2bQKBgQCsNstwzOC0CrcB+tpm\nUjXEkoupl8x2V4+zArdJJLf8nOsah1QCz+7ijqG0YBGGDwQnh2EGOduE9aBA+FN/\n5nRhD54OxDNkQuTrYU+quY2CdwdG1duMrMrB51kNQRgEUcZJ5YUq75YbCz8C65Jp\nYe3uJ16xq7uE8gNg5FNpDSW1yQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lekaisong601@analyze-video-601.iam.gserviceaccount.com",
+  "client_id": "109040229279049826819",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lekaisong601%40analyze-video-601.iam.gserviceaccount.com"
+}
