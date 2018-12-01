@@ -6,7 +6,7 @@ import google_analysis as google_analysis
 
 def query_user(mycursor):
     screen_name =input("Enter a username to query: ")
-    mycursor.execute("SELECT * FROM MINIDATA WHERE username='"+screen_name+"'")
+    mycursor.execute("SELECT * FROM mini3_db WHERE username='"+screen_name+"'")
     myresult = mycursor.fetchall()
     if (len(myresult)==0):
         print("There is NO such a username")
@@ -20,7 +20,7 @@ def query_user(mycursor):
             (username,img_num,description,description_num)
 
 def print_db(mycursor):
-    mycursor.execute(("SELECT * FROM MINIDATA"))
+    mycursor.execute(("SELECT * FROM mini3_db"))
     myresult = mycursor.fetchall()
     print("There are",len(myresult),"user(s) at database")
     print("The current database is ")
@@ -39,12 +39,12 @@ def print_db(mycursor):
     return
 
 def delete_db(mycursor):
-    mycursor.execute("truncate MINIDATA;")
+    mycursor.execute("truncate mini3_db;")
     return
 
 def search_word(mycursor):
     word=input("Enter a word to search: ")
-    mycursor.execute(("SELECT * FROM MINIDATA"))
+    mycursor.execute(("SELECT * FROM mini3_db"))
     myresult = mycursor.fetchall()
     print("The next user has the word",word,"in their description:")
     for user in myresult:
@@ -56,10 +56,10 @@ def search_word(mycursor):
 def add_user(mycursor):
     screen_name =input("Enter a username: ")
     image_num =input("Enter the amount of images to be downloaded: ")
-    mycursor.execute("SELECT * FROM MINIDATA WHERE username='"+screen_name+"'")
+    mycursor.execute("SELECT * FROM mini3_db WHERE username='"+screen_name+"'")
     myresult = mycursor.fetchall()
     if (len(myresult)!=0):
-        print("User name already existed")
+        print("Username already existed")
         return
     print(screen_name)
     print("-------------------------------------")
@@ -75,4 +75,3 @@ def add_user(mycursor):
     print("-------------------------------------")
     google_analysis.google_analyze(screen_name,image_num)
     return
-
