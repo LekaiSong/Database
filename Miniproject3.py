@@ -18,12 +18,12 @@ MYSQL=1
 def main():
 #if __name__ == '__main__':
     while(1):
-        mydb = mysql.connector.connect(host="localhost",user="root",passwd="",db="mini3_db")
+        mydb = mysql.connector.connect(host="localhost",user="root",passwd="")
         mycursor = mydb.cursor()
-        mycursor.execute("CREATE DATABASE IF NOT EXISTS mini3_db")
-        mycursor.execute("use mini3_db")
-        mycursor.execute("CREATE TABLE IF NOT EXISTS MINIDATA(id INT AUTO_INCREMENT PRIMARY KEY,username VARCHAR(255), img_num VARCHAR(255),description VARCHAR(255),description_num VARCHAR(255))")
-        mycursor.execute("use mini3_db")
+        mycursor.execute("CREATE DATABASE IF NOT EXISTS mini3")
+        mycursor.execute("use mini3")
+        mycursor.execute("CREATE TABLE IF NOT EXISTS mini3_db(id INT AUTO_INCREMENT PRIMARY KEY,username VARCHAR(255), img_num VARCHAR(255),description VARCHAR(255),description_num VARCHAR(255))")
+        mycursor.execute("use mini3")
         print("------------------------------------------------")
         print("Menu:\n1.Query new username\n2.Query existed username\n3.See full database \n4.Delete database\n5.Search for a word\n6.Exit")
         data=get_input_num();
