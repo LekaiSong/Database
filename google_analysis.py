@@ -45,18 +45,20 @@ def google_analyze(screen_name,image_num):
 
 
     #insert to database table
-    mydb = mysql.connector.connect(host="localhost",user="root",passwd="",db="mini3_db")
+    mydb = mysql.connector.connect(host="localhost",user="root",passwd="")
     mycursor = mydb.cursor()
-    mycursor.execute("use mini3_db")
-    #mycursor.execute("DROP TABLE IF EXISTS MINIDATA")
-    sql = "INSERT INTO MINIDATA(username,img_num,description,description_num) VALUES (%s,%s,%s,%s)"%(screen_name,image_num,descrip,count)
+    mycursor.execute("use mini3")
+    sql = "INSERT INTO mini3_db(username,img_num,description,description_num) VALUES (%s,%s,%s,%s)"
+    values = (screen_name,image_num,descrip,count)
     descrip = descrip[:-1]
-    try:
-        mycursor.execute(sql)
-        mydb.commit()
-    except:
-        # Rollback in case there is any error
-        mydb.rollback()
+    mycursor.execute(sql,values)
+    mydb.commit()
+    #try:
+    #   mycursor.execute(sql,val)
+    #   mydb.commit()
+    #except:
+    #   # Rollback in case there is any error
+    #   mydb.rollback()
 
     myclient = pymongo.MongoClient("mongodb://localhost:27017/")
     mydb = myclient["mini3"]
