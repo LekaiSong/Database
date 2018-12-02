@@ -63,15 +63,15 @@ def add_user(mycursor):
         return
     print(screen_name)
     print("-------------------------------------")
-    print("downloading images from twitter feed " + screen_name)
+    print("Downloading images from twitter feed " + screen_name)
     print("-------------------------------------")
     get_images.get_all_tweets(screen_name,image_num)
     print("-------------------------------------")
-    print("creating video from",int(image_num),"images")
+    print("Creating video from",int(image_num),"images")
     print("-------------------------------------")
     convert_to_video.convert_to_video(screen_name)
     print("-------------------------------------")
-    print("analyzing video")
+    print("Analyzing video")
     print("-------------------------------------")
     google_analysis.google_analyze(screen_name,image_num)
     return
